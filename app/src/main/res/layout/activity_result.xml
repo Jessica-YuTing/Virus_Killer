@@ -16,8 +16,9 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="171dp"
-        tools:layout_editor_absoluteY="88dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"/>
 
     <Button
         android:id="@+id/restart_btn"
@@ -26,8 +27,11 @@
         android:text="Restart"
         android:textStyle="bold"
         app:backgroundTint="#FF9800"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="717dp" />
+        app:layout_constraintEnd_toStartOf="@+id/share_btn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="648dp" />
 
     <Button
         android:id="@+id/share_btn"
@@ -36,27 +40,24 @@
         android:text="Share"
         android:textStyle="bold"
         app:backgroundTint="#FF5722"
-        tools:layout_editor_absoluteX="231dp"
-        tools:layout_editor_absoluteY="717dp" />
-
-    <androidx.constraintlayout.widget.Guideline
-        android:id="@+id/guideline4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="134dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/restart_btn"
+        app:layout_constraintTop_toTopOf="@+id/guideline5"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="648dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintGuide_begin="273dp" />
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="500dp" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="740dp" />
+        app:layout_constraintGuide_begin="380dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
