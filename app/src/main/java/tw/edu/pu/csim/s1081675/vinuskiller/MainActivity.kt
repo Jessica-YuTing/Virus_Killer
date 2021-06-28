@@ -13,13 +13,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Toast.makeText(baseContext, "作者：陳盈如", Toast.LENGTH_LONG).show()
+        Toast.makeText(baseContext, "作者：Jenny & Jessica", Toast.LENGTH_LONG).show()
 
         start_btn.setOnClickListener(object : View.OnClickListener {
             override fun onClick(p0: View?) {
-                intent = Intent(this@MainActivity, Game1::class.java)
+                intent = Intent(this@MainActivity, register::class.java)
                 startActivity(intent)
             }
         })
+
+
     }
 }

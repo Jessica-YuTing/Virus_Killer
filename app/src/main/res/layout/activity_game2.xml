@@ -13,82 +13,85 @@
         android:background="#009688"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.504"
         app:srcCompat="@drawable/street" />
 
     <TextView
-        android:id="@+id/score_txv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="160dp"
-        android:text="Score"
-        android:textColor="#FFFFFF"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/question_txv"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
         android:id="@+id/question_txv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:layout_marginBottom="170dp"
+        android:layout_width="318dp"
+        android:layout_height="123dp"
         android:background="#FFFFFF"
-        android:text="Question"
-        android:textSize="24sp"
+        android:gravity="center"
+        android:text="走在街上，應該怎麼做才是比較好的行為"
+        android:textSize="30sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/ans1_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
+        app:layout_constraintTop_toTopOf="@+id/guideline11" />
 
     <Button
         android:id="@+id/ans1_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="420dp"
-        android:layout_marginBottom="40dp"
-        android:text="Ans1"
+        android:layout_width="226dp"
+        android:layout_height="90dp"
+        android:text="好悶喔把口罩拿下來透氣一下"
         android:textSize="24sp"
         android:textStyle="bold"
         app:backgroundTint="#F4C063"
-        app:layout_constraintBottom_toTopOf="@+id/ans2_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline12" />
 
     <Button
         android:id="@+id/ans2_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="540dp"
-        android:layout_marginBottom="40dp"
-        android:text="Ans2"
+        android:layout_width="192dp"
+        android:layout_height="87dp"
+        android:text="東摸西摸還揉眼睛揉鼻子"
         android:textSize="24sp"
         android:textStyle="bold"
         app:backgroundTint="#F4C063"
-        app:layout_constraintBottom_toTopOf="@+id/ans3_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline13" />
 
     <Button
         android:id="@+id/ans3_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="610dp"
-        android:text="Ans3"
+        android:layout_width="199dp"
+        android:layout_height="93dp"
+        android:text="戴好口罩迅速前往目的地"
         android:textSize="24sp"
         android:textStyle="bold"
         app:backgroundTint="#F4C063"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/imageView" />
+        app:layout_constraintBottom_toTopOf="@+id/guideline14" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="85dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="340dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="450dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="560dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
