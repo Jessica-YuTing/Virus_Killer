@@ -17,9 +17,8 @@ class Game3 : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game3)
-        sum = intent.getIntExtra("score", 0)
-        Toast.makeText(this, sum.toString(), Toast.LENGTH_LONG).show()
 
+        sum = intent.getIntExtra("score", 0)
         UID = intent.getStringExtra("UserID").toString()
         email = intent.getStringExtra("User").toString()
 

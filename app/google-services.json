@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "792308489287",
+    "project_id": "final-2021-dad11",
+    "storage_bucket": "final-2021-dad11.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792308489287:android:70e0c83f9de7e26ac8a562",
+        "android_client_info": {
+          "package_name": "tw.edu.pu.csim.s1081675.vinuskiller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "792308489287-gus1flu0j1loatm5d9ojv7850vkfva6s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBb9X2Kes8kGpucGXTAf4fUE-AmKwwgZLM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "792308489287-gus1flu0j1loatm5d9ojv7850vkfva6s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
